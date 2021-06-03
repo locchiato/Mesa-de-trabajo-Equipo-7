@@ -19,7 +19,7 @@ public class Ejercicio2 {
 
     private static Integer[] obtenerNumeros(int cantidad) {
         Scanner scanner = new Scanner(System.in);
-        Integer[] numeros = new Integer[3];
+        Integer[] numeros = new Integer[cantidad];
         for (int i = 0; i < cantidad; i++) {
             System.out.println("Ingrese numero " + (i+1) + ": ");
             numeros[i] = scanner.nextInt();
